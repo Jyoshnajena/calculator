@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tip Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>TIP CALCULATOR</h1>
+    <div class="wrapper">
+      <p>Bill Amount</p>
+      <input type="number" id="amount" placeholder="Amount to be paid">Rs.
+      <p>How did you like the service?</p>
+      <select id="service">
+        <option>Select</option>
+        <option value="0.25">25% - Super se bhi Uper</option>
+        <option value="0.20">20% - Excellent</option>
+        <option value="0.15">15% - Good</option>
+        <option value="0.10">10% - Bad</option>
+        <option value="0.05">5% - Worst</option>
+      </select>
+      <p>Total number of persons</p>
+      <input type="number" id="persons" placeholder="Number of people sharing the bill">
+      <button id="calculate">Calculate</button>
+    </div>
+    <div class="tip">
+      <p>Tip Amount</p>
+      <span id="total">0</span>₹
+      <span id="each">each</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- <h1>Assignment Management</h1>
+    <p>You need create an assignment management app with the following functionalities:</p>
+    <div>add assignment</div>
+    <div>Delete assignment</div>
+    <div>Show pending assignments</div>
+    <div>show running assignments</div>
+    
+    <p>The active section as beloe should be highlighted.</p>
+    
+    <button id="btnl">Add assignment</button>
+    <button id="btnl">Past Assign</button>
+    <button id="btnl">Future Assign</button> -->
